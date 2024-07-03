@@ -13,7 +13,7 @@ This is a basic Android application that demonstrates various text styles using 
 
 ## Screenshot
 
-
+![Example Screenshot](https://github.com/swaraj-mishra-3184/AndroidFirst/assets/155736642/6f855e27-b3d2-4d81-b89b-634e3e411e46)
 
 
 ## How to Run
