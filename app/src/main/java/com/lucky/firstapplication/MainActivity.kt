@@ -38,44 +38,44 @@ class MainActivity : ComponentActivity() {
                     ) {
                         HorizontalDivider(
                             modifier = Modifier.padding(vertical = 3.dp),
-                            thickness = 3.dp,
-                            color = Color.Black
+                            thickness = 2.dp,
+                            color = Color.DarkGray
                         )
                         NormalText()
                         HorizontalDivider(
                             modifier = Modifier.padding(vertical = 3.dp),
-                            thickness = 3.dp,
-                            color = Color.Black
+                            thickness = 2.dp,
+                            color = Color.DarkGray
                         )
                         BoldPurpleText()
                         HorizontalDivider(
                             modifier = Modifier.padding(vertical = 3.dp),
-                            thickness = 3.dp,
-                            color = Color.Black
+                            thickness = 2.dp,
+                            color = Color.DarkGray
                         )
                         GradientText()
                         HorizontalDivider(
                             modifier = Modifier.padding(vertical = 3.dp),
-                            thickness = 3.dp,
-                            color = Color.Black
+                            thickness = 2.dp,
+                            color = Color.DarkGray
                         )
                         ShadowText()
                         HorizontalDivider(
                             modifier = Modifier.padding(vertical = 3.dp),
-                            thickness = 3.dp,
-                            color = Color.Black
+                            thickness = 2.dp,
+                            color = Color.DarkGray
                         )
                         StyledText()
                         HorizontalDivider(
                             modifier = Modifier.padding(vertical = 3.dp),
-                            thickness = 3.dp,
-                            color = Color.Black
+                            thickness = 2.dp,
+                            color = Color.DarkGray
                         )
                         OpacityText()
                         HorizontalDivider(
                             modifier = Modifier.padding(vertical = 3.dp),
-                            thickness = 3.dp,
-                            color = Color.Black
+                            thickness = 2.dp,
+                            color = Color.DarkGray
                         )
                     }
                 }
