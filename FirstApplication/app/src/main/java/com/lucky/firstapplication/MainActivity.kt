@@ -82,6 +82,31 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+
+    override fun onStart() {
+        super.onStart()
+        println("Application Lifecycle is in Start state")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        println("Application Lifecycle is in Resume state")
+    }
+
+    override fun onPause() {
+        super.onPause()
+        println("Application Lifecycle is in Pause state")
+    }
+
+    override fun onStop() {
+        super.onStop()
+        println("Application Lifecycle is in Stop state")
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        println("Application Lifecycle is in Destroy state")
+    }
 }
 
 @Composable
