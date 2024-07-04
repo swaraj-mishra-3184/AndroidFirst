@@ -11,6 +11,8 @@ This project is an Android music player application built using Jetpack Compose.
 - **Gradient Background**: A visually appealing gradient background.
 
 ## Screenshots
+![image](https://github.com/swaraj-mishra-3184/AndroidFirst/assets/155736642/0299259c-3421-4cd5-8699-74d844d519b1)
+
 
 ## Usage
 - **Play/Pause**: Tap the play/pause button to start or pause the music.
