@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.lucky.musicplayer"
+    namespace = "com.lucky.weather"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.lucky.musicplayer"
+        applicationId = "com.lucky.weather"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -50,9 +50,7 @@ android {
 }
 
 dependencies {
-    //:kotlin-stdlib:1.8.10)
-    //support.v4.media.app.NotificationCompat)
-    //implementation(android.support.v4.media.session.MediaSessionCompat.Token)
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
@@ -61,13 +59,6 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
-    implementation(libs.androidx.media3.common)
-    implementation(libs.androidx.media3.exoplayer)
-    implementation(libs.androidx.media3.session)
-    implementation(libs.androidx.media3.ui)
-    implementation(libs.androidx.camera.effects)
-    implementation(libs.androidx.navigation.runtime.ktx)
-    implementation(libs.androidx.navigation.compose)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
